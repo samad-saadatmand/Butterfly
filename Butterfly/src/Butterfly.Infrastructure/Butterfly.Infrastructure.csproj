@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Butterfly.Application\Butterfly.Application.csproj" />
+    <ProjectReference Include="..\Butterfly.Domain\Butterfly.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
